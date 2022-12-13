@@ -1,0 +1,10 @@
+const sum = (...args) => {
+   let sumAll = 0;
+
+  for (let arg of args) sumAll += arg;
+
+  return sumAll;
+
+
+  
+}
